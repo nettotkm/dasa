@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Teste para avaliação do nível técnico para posição de frontend.
 
-## Available Scripts
 
-In the project directory, you can run:
+ ## PONTOS DE AVALIAÇÃO:
+- Arquitetura do projeto;
+- Qualidade de código;
+- Consumo de API;
+- Conhecimentos em manipulação de array e objetos com suas respectivas propriedades;
+- Conhecimentos em HTML e CSS utilizados na estrutura da página (view);
+- Bônus:
+  - Estilização visual/estética da página (view).
+  - Utilização de pré-processadores;
+  - Implementação de teste(s);
+  - Utilização de expressões regulares;
 
-### `npm start`
+ ## OBJETIVO:
+Criação de uma aplicação de uma lista, utilizando um framework SPA (Vue, React, Angular, etc) de sua escolha.
+Esta aplicação deve consumir uma API, que contenha um array de objetos, sendo que cada objeto tenha ao menos duas propriedades:
+Recomendação de API para consumo: https://pokeapi.co/
+```
+Exemplo: 
+[
+  {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon/1/"
+  },
+]
+```
+PS: Poderá ser utilizado a API de sua escolha ou a sugerida acima.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ ## ESPECIFICAÇÕES DA APLICAÇÃO
+- O usuário deverá abrir a url e visualizar todos os itens consumidos pela API;
+- O usuário deverá visualizar uma listagem filtrada dos itens ao digitar algo no campo de busca;
+- [PLUS] O filtro de busca deve exibir itens que "correspondam" com o valor aproximado (ex: ao digitar no campo de busca a palavra 'blb', deve-se exibir os itens '' ).
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+ Exemplo:
+![Image](https://raw.githubusercontent.com/baesso/frontend-simple-test/master/notes01.png)
+![Image](https://raw.githubusercontent.com/baesso/frontend-simple-test/master/notes02.png)
