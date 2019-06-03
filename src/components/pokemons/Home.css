@@ -1,0 +1,11 @@
+.container{
+  background-color:#F5F9FC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  color: #D2CAC9;
+  margin-bottom: 10px;
+}

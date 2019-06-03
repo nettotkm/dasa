@@ -1,0 +1,27 @@
+*:focus {
+  outline: none;
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input{
+  margin:25px;
+  height: 40px;
+  width: 800px;
+  border-radius: 5px;
+  border: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .input {
+    width: 500px;
+    height: 40px;
+  }  
+}
+@media screen and (max-width: 414px) {
+  .input {
+    width: 300px;
+    height: 40px;
+  }  
+}
